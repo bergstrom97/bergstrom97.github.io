@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
----
-% layout: default %
----
+
 
 <title>Emils hemsida</title>
 <head>
@@ -11,7 +9,7 @@
       <table>
         <tr>
           <th scope="col">Fotboll</th>
-          <th scope="col">Heja Barca</th>
+          <th scope="row">Heja Barca</th>
         </tr>
       </table>
     </div>
@@ -24,14 +22,13 @@
   <h1 class="page-heading">Gunnar måste ge holcken mer access!</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    for post in site.posts
  
     <h3>Anledningar till att Holcken ska få mer access:</h3>
     <li> Han är smart</li>
     <li> Han genomlider arbete som andra inte vill göra</li>
     <li> Han ger Emil och Märta glass</li>
     <li>Han körde Skoda men fick förnuftet att köpa en BMW</li>
-    {% endfor %}
   </ul>
   </body>
 </div>
